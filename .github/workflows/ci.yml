@@ -18,8 +18,6 @@ jobs:
         include:
           - os: ubuntu-latest
             go: "1.26"
-          - os: ubuntu-latest
-            go: "1.25"  # Floor Go version of zipkin-go (current - 2)
     steps:
       # Set fetch-depth: 0 to fetch commit history and tags for use in version calculation
       - name: Check out code
